@@ -1,0 +1,16 @@
+PODS:
+  - AJAPIClient (0.1.0)
+
+DEPENDENCIES:
+  - AJAPIClient (from `../`)
+
+EXTERNAL SOURCES:
+  AJAPIClient:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AJAPIClient: 6796f407f51e0dfb172aeff9f41ff92714a1ae34
+
+PODFILE CHECKSUM: 0d5d2129b842b3c3aa4bb713a6eb51970af84578
+
+COCOAPODS: 1.7.1

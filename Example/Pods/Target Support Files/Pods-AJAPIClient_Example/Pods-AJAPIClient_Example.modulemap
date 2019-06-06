@@ -1,0 +1,6 @@
+framework module Pods_AJAPIClient_Example {
+  umbrella header "Pods-AJAPIClient_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

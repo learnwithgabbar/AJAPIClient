@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2772B215A1B08BBDDD3C31ED5B69CA3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3AD73ACF11DF70563C1DE933948B2A99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		3B9EB9BDCE334D78B645E3A30E9AEE8B /* Pods-AJAPIClient_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E575BA2A715BAA293209E2CF1BF39824 /* Pods-AJAPIClient_Example-dummy.m */; };
+		416D29382A652F8AFA831CFADDE00EEB /* AJAPIClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36EEBEB2AE0DAB1AC6D13DDD5669B81C /* AJAPIClient-dummy.m */; };
+		6919EB08A45CADC9EF1215CAF6CEADA9 /* Pods-AJAPIClient_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A44D2C02DBF69F66582CB0B92514562 /* Pods-AJAPIClient_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0E366509388B389A2D414FD66A8F587 /* Pods-AJAPIClient_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C41A09C40440A90CF02B12834440D2E /* Pods-AJAPIClient_Tests-dummy.m */; };
+		A76D415DE97B1A8F78597FD900DC8667 /* AJAPIClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36A0E383A37C9ACDA67B3440656F36E6 /* AJAPIClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD9F7F23DC12EC6A20EA3EE8E1645D6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		B7E674F93160430235DF3BD279BC5D97 /* Pods-AJAPIClient_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41F2ED83116D8676D98912AAAA12F9C2 /* Pods-AJAPIClient_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C61537DECE15A6D23B7C530BA0177AA5 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D8B684A02968E2F19EECBF00E22217 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43A5833055B9235CAD176942E0971AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C27B38DFED95A782A90082D217D35FD8;
+			remoteInfo = "Pods-AJAPIClient_Example";
+		};
+		B667A1A942216A7A4B45818414D9F4FF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 749BD6A4D21EC25AF2EE6F2A4C71B5B6;
+			remoteInfo = AJAPIClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012527E18139A523CA4EF7E96188F696 /* Pods-AJAPIClient_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJAPIClient_Tests-Info.plist"; sourceTree = "<group>"; };
+		060FA136580E560DBF351C51D9A6CDA6 /* Pods-AJAPIClient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJAPIClient_Example.release.xcconfig"; sourceTree = "<group>"; };
+		112FB89856D8505C436F2F6314161A11 /* AJAPIClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJAPIClient.xcconfig; sourceTree = "<group>"; };
+		175AD5E86EC2BB5A12684DF5A47BB9E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1AB03ED48FF9B734224AB0CFB87EB8DF /* Pods-AJAPIClient_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AJAPIClient_Example.modulemap"; sourceTree = "<group>"; };
+		1C41A09C40440A90CF02B12834440D2E /* Pods-AJAPIClient_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJAPIClient_Tests-dummy.m"; sourceTree = "<group>"; };
+		2384509F79C63EF6CB83FEC59C43A3AB /* AJAPIClient.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AJAPIClient.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		251E5E3A38D31F2B79245A66B2267B14 /* Pods-AJAPIClient_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJAPIClient_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2DEE2B900377BE627C197D03AB840C43 /* Pods-AJAPIClient_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AJAPIClient_Tests.modulemap"; sourceTree = "<group>"; };
+		36A0E383A37C9ACDA67B3440656F36E6 /* AJAPIClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJAPIClient-umbrella.h"; sourceTree = "<group>"; };
+		36EEBEB2AE0DAB1AC6D13DDD5669B81C /* AJAPIClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJAPIClient-dummy.m"; sourceTree = "<group>"; };
+		3F96E8620F774BA7C3DC94561A10FAD3 /* AJAPIClient-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AJAPIClient-Info.plist"; sourceTree = "<group>"; };
+		41F2ED83116D8676D98912AAAA12F9C2 /* Pods-AJAPIClient_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AJAPIClient_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5700A7CBFD8EFDB17BCCFC23E508F032 /* Pods-AJAPIClient_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJAPIClient_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A44D2C02DBF69F66582CB0B92514562 /* Pods-AJAPIClient_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AJAPIClient_Example-umbrella.h"; sourceTree = "<group>"; };
+		5B076A3D9282BA2294D1A29814951912 /* AJAPIClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AJAPIClient.framework; path = AJAPIClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6139D5570EEE3D5C6046080ADDCD4C18 /* Pods_AJAPIClient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AJAPIClient_Tests.framework; path = "Pods-AJAPIClient_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8D4B396B0B0EF2FD677F658D3A015A /* Pods-AJAPIClient_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJAPIClient_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F9CFC647B6C84EC6610738DB14B17B9 /* Pods-AJAPIClient_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJAPIClient_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7214A82DBBEBD93F92F8228E10B1FED6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		75D64987647775A0DDFDC4ED7562CF34 /* Pods-AJAPIClient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJAPIClient_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7833139B5D9E9938C90CC0A6336C65ED /* AJAPIClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AJAPIClient.modulemap; sourceTree = "<group>"; };
+		7C90E36AD9F567F058726D1B1325169E /* Pods-AJAPIClient_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJAPIClient_Example-Info.plist"; sourceTree = "<group>"; };
+		7E8F36617EA30C76CB4C811732BAAD78 /* AJAPIClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJAPIClient-prefix.pch"; sourceTree = "<group>"; };
+		83D8B684A02968E2F19EECBF00E22217 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AJAPIClient/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		9729A560B3BBFEA1C6CE9C0F7CFE6C2D /* Pods_AJAPIClient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AJAPIClient_Example.framework; path = "Pods-AJAPIClient_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		97714E6D45D3AEF9C3E322D6ECEC7601 /* Pods-AJAPIClient_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJAPIClient_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E23291F3E02B52BBD5AE5889B8B8729 /* Pods-AJAPIClient_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJAPIClient_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D95B123F983AE54708323DB838AC9EFF /* Pods-AJAPIClient_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJAPIClient_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E575BA2A715BAA293209E2CF1BF39824 /* Pods-AJAPIClient_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJAPIClient_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27EB9ABFA6D80263AC9BB5737CD93081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD73ACF11DF70563C1DE933948B2A99 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92682E20ABCBC8D34EEC9A1FD05BCD81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9F7F23DC12EC6A20EA3EE8E1645D6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECC2241773DD46D2D3F3793744E3172C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2772B215A1B08BBDDD3C31ED5B69CA3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FC03478975FF771B8B78A825CAEC2E8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9FC50C6202D85C119A34ABA95654EDD /* Pods-AJAPIClient_Example */,
+				E84D1F5D3E6429C15767B339CE674228 /* Pods-AJAPIClient_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		160010AB86751F16B95E17C7448E17B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7833139B5D9E9938C90CC0A6336C65ED /* AJAPIClient.modulemap */,
+				112FB89856D8505C436F2F6314161A11 /* AJAPIClient.xcconfig */,
+				36EEBEB2AE0DAB1AC6D13DDD5669B81C /* AJAPIClient-dummy.m */,
+				3F96E8620F774BA7C3DC94561A10FAD3 /* AJAPIClient-Info.plist */,
+				7E8F36617EA30C76CB4C811732BAAD78 /* AJAPIClient-prefix.pch */,
+				36A0E383A37C9ACDA67B3440656F36E6 /* AJAPIClient-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AJAPIClient";
+			sourceTree = "<group>";
+		};
+		330BC72356B3939F8C921E19604B38AA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2384509F79C63EF6CB83FEC59C43A3AB /* AJAPIClient.podspec */,
+				175AD5E86EC2BB5A12684DF5A47BB9E5 /* LICENSE */,
+				7214A82DBBEBD93F92F8228E10B1FED6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		360F928F6CDC559DD7D35A04A0F95DB4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5095D5B4469544A71AA0D20EB06C24F3 /* AJAPIClient */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5095D5B4469544A71AA0D20EB06C24F3 /* AJAPIClient */ = {
+			isa = PBXGroup;
+			children = (
+				83D8B684A02968E2F19EECBF00E22217 /* ReplaceMe.swift */,
+				330BC72356B3939F8C921E19604B38AA /* Pod */,
+				160010AB86751F16B95E17C7448E17B8 /* Support Files */,
+			);
+			name = AJAPIClient;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7E53B05D62561B8C3AF38056C813F5C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B076A3D9282BA2294D1A29814951912 /* AJAPIClient.framework */,
+				9729A560B3BBFEA1C6CE9C0F7CFE6C2D /* Pods_AJAPIClient_Example.framework */,
+				6139D5570EEE3D5C6046080ADDCD4C18 /* Pods_AJAPIClient_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A9FC50C6202D85C119A34ABA95654EDD /* Pods-AJAPIClient_Example */ = {
+			isa = PBXGroup;
+			children = (
+				1AB03ED48FF9B734224AB0CFB87EB8DF /* Pods-AJAPIClient_Example.modulemap */,
+				D95B123F983AE54708323DB838AC9EFF /* Pods-AJAPIClient_Example-acknowledgements.markdown */,
+				251E5E3A38D31F2B79245A66B2267B14 /* Pods-AJAPIClient_Example-acknowledgements.plist */,
+				E575BA2A715BAA293209E2CF1BF39824 /* Pods-AJAPIClient_Example-dummy.m */,
+				6F9CFC647B6C84EC6610738DB14B17B9 /* Pods-AJAPIClient_Example-frameworks.sh */,
+				7C90E36AD9F567F058726D1B1325169E /* Pods-AJAPIClient_Example-Info.plist */,
+				5A44D2C02DBF69F66582CB0B92514562 /* Pods-AJAPIClient_Example-umbrella.h */,
+				75D64987647775A0DDFDC4ED7562CF34 /* Pods-AJAPIClient_Example.debug.xcconfig */,
+				060FA136580E560DBF351C51D9A6CDA6 /* Pods-AJAPIClient_Example.release.xcconfig */,
+			);
+			name = "Pods-AJAPIClient_Example";
+			path = "Target Support Files/Pods-AJAPIClient_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				360F928F6CDC559DD7D35A04A0F95DB4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7E53B05D62561B8C3AF38056C813F5C9 /* Products */,
+				0FC03478975FF771B8B78A825CAEC2E8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E84D1F5D3E6429C15767B339CE674228 /* Pods-AJAPIClient_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2DEE2B900377BE627C197D03AB840C43 /* Pods-AJAPIClient_Tests.modulemap */,
+				5700A7CBFD8EFDB17BCCFC23E508F032 /* Pods-AJAPIClient_Tests-acknowledgements.markdown */,
+				97714E6D45D3AEF9C3E322D6ECEC7601 /* Pods-AJAPIClient_Tests-acknowledgements.plist */,
+				1C41A09C40440A90CF02B12834440D2E /* Pods-AJAPIClient_Tests-dummy.m */,
+				012527E18139A523CA4EF7E96188F696 /* Pods-AJAPIClient_Tests-Info.plist */,
+				41F2ED83116D8676D98912AAAA12F9C2 /* Pods-AJAPIClient_Tests-umbrella.h */,
+				6C8D4B396B0B0EF2FD677F658D3A015A /* Pods-AJAPIClient_Tests.debug.xcconfig */,
+				9E23291F3E02B52BBD5AE5889B8B8729 /* Pods-AJAPIClient_Tests.release.xcconfig */,
+			);
+			name = "Pods-AJAPIClient_Tests";
+			path = "Target Support Files/Pods-AJAPIClient_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09E0FCE19D31F971B819704137BBB759 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E674F93160430235DF3BD279BC5D97 /* Pods-AJAPIClient_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8943D4C09AC4BF3AD2135B05E3F728B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6919EB08A45CADC9EF1215CAF6CEADA9 /* Pods-AJAPIClient_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2C7358191868CAA43FCD14A9827E32F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A76D415DE97B1A8F78597FD900DC8667 /* AJAPIClient-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		714D0128AC500C83151E1B56ADC325D5 /* Pods-AJAPIClient_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F6D3504903E29BEA20E8C5C23F4045 /* Build configuration list for PBXNativeTarget "Pods-AJAPIClient_Tests" */;
+			buildPhases = (
+				09E0FCE19D31F971B819704137BBB759 /* Headers */,
+				742FF23073894CA18A2D049EB8D194D1 /* Sources */,
+				ECC2241773DD46D2D3F3793744E3172C /* Frameworks */,
+				4419ACF9B5854F7021717A2F54432804 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2078D1712008430C922886740EF905F6 /* PBXTargetDependency */,
+			);
+			name = "Pods-AJAPIClient_Tests";
+			productName = "Pods-AJAPIClient_Tests";
+			productReference = 6139D5570EEE3D5C6046080ADDCD4C18 /* Pods_AJAPIClient_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		749BD6A4D21EC25AF2EE6F2A4C71B5B6 /* AJAPIClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E2C14C9128D03DCC6D16BE903120C8 /* Build configuration list for PBXNativeTarget "AJAPIClient" */;
+			buildPhases = (
+				F2C7358191868CAA43FCD14A9827E32F /* Headers */,
+				0F193E12190917A89149CE661A3D7D74 /* Sources */,
+				27EB9ABFA6D80263AC9BB5737CD93081 /* Frameworks */,
+				DDBFDC4754545399EA55735C52248BB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AJAPIClient;
+			productName = AJAPIClient;
+			productReference = 5B076A3D9282BA2294D1A29814951912 /* AJAPIClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C27B38DFED95A782A90082D217D35FD8 /* Pods-AJAPIClient_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0FD1ED36A23820B7C093CC219F37F4C /* Build configuration list for PBXNativeTarget "Pods-AJAPIClient_Example" */;
+			buildPhases = (
+				E8943D4C09AC4BF3AD2135B05E3F728B /* Headers */,
+				689EA6954BEB610FD6DD2DABA0209693 /* Sources */,
+				92682E20ABCBC8D34EEC9A1FD05BCD81 /* Frameworks */,
+				A2B22A7FB15BB81F921CC1336A1D6B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82C68DE05C4DD18D2B763AA2CB6BC668 /* PBXTargetDependency */,
+			);
+			name = "Pods-AJAPIClient_Example";
+			productName = "Pods-AJAPIClient_Example";
+			productReference = 9729A560B3BBFEA1C6CE9C0F7CFE6C2D /* Pods_AJAPIClient_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7E53B05D62561B8C3AF38056C813F5C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				749BD6A4D21EC25AF2EE6F2A4C71B5B6 /* AJAPIClient */,
+				C27B38DFED95A782A90082D217D35FD8 /* Pods-AJAPIClient_Example */,
+				714D0128AC500C83151E1B56ADC325D5 /* Pods-AJAPIClient_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4419ACF9B5854F7021717A2F54432804 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2B22A7FB15BB81F921CC1336A1D6B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDBFDC4754545399EA55735C52248BB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F193E12190917A89149CE661A3D7D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416D29382A652F8AFA831CFADDE00EEB /* AJAPIClient-dummy.m in Sources */,
+				C61537DECE15A6D23B7C530BA0177AA5 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		689EA6954BEB610FD6DD2DABA0209693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9EB9BDCE334D78B645E3A30E9AEE8B /* Pods-AJAPIClient_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		742FF23073894CA18A2D049EB8D194D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E366509388B389A2D414FD66A8F587 /* Pods-AJAPIClient_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2078D1712008430C922886740EF905F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AJAPIClient_Example";
+			target = C27B38DFED95A782A90082D217D35FD8 /* Pods-AJAPIClient_Example */;
+			targetProxy = 43A5833055B9235CAD176942E0971AEB /* PBXContainerItemProxy */;
+		};
+		82C68DE05C4DD18D2B763AA2CB6BC668 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AJAPIClient;
+			target = 749BD6A4D21EC25AF2EE6F2A4C71B5B6 /* AJAPIClient */;
+			targetProxy = B667A1A942216A7A4B45818414D9F4FF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F7D961EC5A5986370A709AA7C23A9A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 060FA136580E560DBF351C51D9A6CDA6 /* Pods-AJAPIClient_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AJAPIClient_Example/Pods-AJAPIClient_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AJAPIClient_Example/Pods-AJAPIClient_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5BAFE38AFD63442538A5AF43883B5FF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E23291F3E02B52BBD5AE5889B8B8729 /* Pods-AJAPIClient_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AJAPIClient_Tests/Pods-AJAPIClient_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AJAPIClient_Tests/Pods-AJAPIClient_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		841AE152BBB331187B1CC89CB773CEE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112FB89856D8505C436F2F6314161A11 /* AJAPIClient.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AJAPIClient/AJAPIClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AJAPIClient/AJAPIClient-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AJAPIClient/AJAPIClient.modulemap";
+				PRODUCT_MODULE_NAME = AJAPIClient;
+				PRODUCT_NAME = AJAPIClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		974352A817D2BB77EE0F883D3EAFC615 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112FB89856D8505C436F2F6314161A11 /* AJAPIClient.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AJAPIClient/AJAPIClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AJAPIClient/AJAPIClient-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AJAPIClient/AJAPIClient.modulemap";
+				PRODUCT_MODULE_NAME = AJAPIClient;
+				PRODUCT_NAME = AJAPIClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E053BA811859029486042D3CA88A12B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D64987647775A0DDFDC4ED7562CF34 /* Pods-AJAPIClient_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AJAPIClient_Example/Pods-AJAPIClient_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AJAPIClient_Example/Pods-AJAPIClient_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F03429E857A8977F5A660EE611EDC1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C8D4B396B0B0EF2FD677F658D3A015A /* Pods-AJAPIClient_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AJAPIClient_Tests/Pods-AJAPIClient_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AJAPIClient_Tests/Pods-AJAPIClient_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29F6D3504903E29BEA20E8C5C23F4045 /* Build configuration list for PBXNativeTarget "Pods-AJAPIClient_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F03429E857A8977F5A660EE611EDC1AF /* Debug */,
+				5BAFE38AFD63442538A5AF43883B5FF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E2C14C9128D03DCC6D16BE903120C8 /* Build configuration list for PBXNativeTarget "AJAPIClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				974352A817D2BB77EE0F883D3EAFC615 /* Debug */,
+				841AE152BBB331187B1CC89CB773CEE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0FD1ED36A23820B7C093CC219F37F4C /* Build configuration list for PBXNativeTarget "Pods-AJAPIClient_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E053BA811859029486042D3CA88A12B5 /* Debug */,
+				2F7D961EC5A5986370A709AA7C23A9A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module AJAPIClient {
+  umbrella header "AJAPIClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AJAPIClient_Example' do
+  pod 'AJAPIClient', :path => '../'
+
+  target 'AJAPIClient_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

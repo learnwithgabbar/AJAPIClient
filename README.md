@@ -22,7 +22,7 @@ pod 'AJAPIClient'
 
 ## Author
 
-anilabsinc-ajay, ajay@anilabsinc.com
+
 
 ## License
 
